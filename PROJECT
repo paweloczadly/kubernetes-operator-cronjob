@@ -1,0 +1,6 @@
+domain: kubernetes-operator-cronjob
+layout:
+- go.kubebuilder.io/v3
+projectName: kubernetes-operator-cronjob
+repo: github.com/paweloczadly/kubernetes-operator-cronjob
+version: "3"
