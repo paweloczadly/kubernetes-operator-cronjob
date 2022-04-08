@@ -1,4 +1,4 @@
-domain: kubernetes-operator-cronjob
+domain: paweloczadly.io
 layout:
 - go.kubebuilder.io/v3
 projectName: kubernetes-operator-cronjob
@@ -8,7 +8,7 @@ resources:
     crdVersion: v1
     namespaced: true
   controller: true
-  domain: kubernetes-operator-cronjob
+  domain: paweloczadly.io
   group: batch
   kind: CronJob
   path: github.com/paweloczadly/kubernetes-operator-cronjob/api/v1

@@ -5,7 +5,7 @@ metadata:
   name: cronjob-editor-role
 rules:
 - apiGroups:
-  - batch.kubernetes-operator-cronjob
+  - batch.paweloczadly.io
   resources:
   - cronjobs
   verbs:
@@ -17,7 +17,7 @@ rules:
   - update
   - watch
 - apiGroups:
-  - batch.kubernetes-operator-cronjob
+  - batch.paweloczadly.io
   resources:
   - cronjobs/status
   verbs:

@@ -71,7 +71,7 @@ func main() {
 		Port:                   9443,
 		HealthProbeBindAddress: probeAddr,
 		LeaderElection:         enableLeaderElection,
-		LeaderElectionID:       "adf6daa5.kubernetes-operator-cronjob",
+		LeaderElectionID:       "adf6daa5.paweloczadly.io",
 	})
 	if err != nil {
 		setupLog.Error(err, "unable to start manager")

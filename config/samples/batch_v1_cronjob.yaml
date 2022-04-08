@@ -1,4 +1,4 @@
-apiVersion: batch.kubernetes-operator-cronjob/v1
+apiVersion: batch.paweloczadly.io/v1
 kind: CronJob
 metadata:
   name: cronjob-sample
