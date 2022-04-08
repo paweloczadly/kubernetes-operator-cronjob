@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: kubernetes-operator-cronjob
 repo: github.com/paweloczadly/kubernetes-operator-cronjob
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: kubernetes-operator-cronjob
+  group: batch
+  kind: CronJob
+  path: github.com/paweloczadly/kubernetes-operator-cronjob/api/v1
+  version: v1
 version: "3"
