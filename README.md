@@ -34,3 +34,11 @@ $ kubectl apply -f config/samples/
 $ kubectl get cronjobs.batch.paweloczadly.io
 $ kubectl get jobs
 ```
+
+### Use image from Docker hub
+
+Instead of calling `make run` it is also possible to use built container image which is uploaded to Docker hub:
+
+```
+$ make deploy IMG=paweloczadly/kubernetes-operator-cronjob:v0.1.0
+```
